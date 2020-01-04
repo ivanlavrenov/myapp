@@ -12,36 +12,27 @@ const App = () => (
           <NavLink
             to='/'
             exact
-            className={styles.link}
-            activeStyle={{
-              color: '#FFF',  
-              background: '#356EFF',
-              boxShadow: '0px 0px 3px rgba(0, 0, 0, 0.25)',
-              borderRadius: '37px',
-            }}
+            className={styles.header__link}
+            activeClassName={styles['header__about-me']}
           >
             Обо мне
           </NavLink>
           <NavLink
             to='/todo'
-            className={styles.link} 
-            activeStyle={{
-              color: '#FFF',
-              background: '#356EFF',
-              boxShadow: '0px 0px 3px rgba(0, 0, 0, 0.25)',
-              borderRadius: '37px',
-            }}
+            className={styles.header__link}
+            activeClassName={styles.header__todos}
           >
             Дела
           </NavLink>
         </nav>
       </header>
+  
       <main>
         <Route path='/' exact component={AboutMe} />
         <Route path='/todo' component={Todo} />
       </main>
     </Router>
-  </div>
+  </main>
 );
 
 export default App;

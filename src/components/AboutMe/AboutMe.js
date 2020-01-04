@@ -2,6 +2,7 @@ import React from 'react';
 import Octokit from '@octokit/rest';
 import Card from '@material-ui/core/Card';
 import styles from './AboutMe.module.css';
+import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
 
 const  octokit = new  Octokit();
 
