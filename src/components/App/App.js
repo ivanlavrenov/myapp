@@ -36,7 +36,6 @@ const App = () => (
           </NavLink>
         </nav>
       </header>
-  
       <main>
         <Route path='/' exact component={AboutMe} />
         <Route path='/todo' component={Todo} />
