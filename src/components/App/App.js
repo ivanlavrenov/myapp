@@ -13,14 +13,14 @@ const App = () => (
             to='/'
             exact
             className={styles.header__link}
-            activeClassName={styles['header__about-me']}
+            activeClassName={styles['header_about']}
           >
             Обо мне
           </NavLink>
           <NavLink
             to='/todo'
-            className={styles.header__link}
-            activeClassName={styles.header__todos}
+            className={styles.header_link}
+            activeClassName={styles.header_todo}
           >
             Дела
           </NavLink>
