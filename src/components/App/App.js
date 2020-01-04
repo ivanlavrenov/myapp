@@ -32,7 +32,7 @@ const App = () => (
         <Route path='/todo' component={Todo} />
       </main>
     </Router>
-  </main>
+  </div>
 );
 
 export default App;
