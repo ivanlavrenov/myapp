@@ -5,7 +5,7 @@ import AboutMe from '../AboutMe/AboutMe';
 import styles from './App.module.css';
 
 const App = () => (
-  <div className={styles.app}>
+  <main className={styles.app}>
     <Router>
       <header className={styles.header}>
         <nav>
@@ -18,7 +18,7 @@ const App = () => (
             Обо мне
           </NavLink>
           <NavLink
-            to='todo'
+            to='Todo'
             className={styles.header_link}
             activeClassName={styles.header_todo}
           >
@@ -29,10 +29,10 @@ const App = () => (
   
       <main>
         <Route path='/' exact component={AboutMe} />
-        <Route path='todo' component={Todo} />
+        <Route path='/Todo' component={Todo} />
       </main>
     </Router>
-  </div>
+  </main>
 );
 
 export default App;

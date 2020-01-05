@@ -3,7 +3,6 @@ import InputItem from '../InputItem/InputItem';
 import ItemList from '../ItemList/ItemList';
 import Card from '@material-ui/core/Card';
 import styles from './Todo.module.css';
-import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
 
 class Todo extends React.Component {
   state = {
