@@ -18,7 +18,7 @@ const App = () => (
             Обо мне
           </NavLink>
           <NavLink
-            to='/todo'
+            to='Todo'
             className={styles.header_link}
             activeClassName={styles.header_todo}
           >
