@@ -18,7 +18,7 @@ const App = () => (
             Обо мне
           </NavLink>
           <NavLink
-            to='Todo'
+            to='todo'
             className={styles.header_link}
             activeClassName={styles.header_todo}
           >
@@ -29,7 +29,7 @@ const App = () => (
   
       <main>
         <Route path='/' exact component={AboutMe} />
-        <Route path='/todo' component={Todo} />
+        <Route path='todo' component={Todo} />
       </main>
     </Router>
   </div>
