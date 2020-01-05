@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/myapp/static/css/main.af696a07.chunk.css",
-    "main.js": "/myapp/static/js/main.14b98856.chunk.js",
-    "main.js.map": "/myapp/static/js/main.14b98856.chunk.js.map",
+    "main.css": "/myapp/static/css/main.320a6654.chunk.css",
+    "main.js": "/myapp/static/js/main.f1facabb.chunk.js",
+    "main.js.map": "/myapp/static/js/main.f1facabb.chunk.js.map",
     "runtime-main.js": "/myapp/static/js/runtime-main.5f507148.js",
     "runtime-main.js.map": "/myapp/static/js/runtime-main.5f507148.js.map",
-    "static/js/2.c688961e.chunk.js": "/myapp/static/js/2.c688961e.chunk.js",
-    "static/js/2.c688961e.chunk.js.map": "/myapp/static/js/2.c688961e.chunk.js.map",
+    "static/js/2.81811a18.chunk.js": "/myapp/static/js/2.81811a18.chunk.js",
+    "static/js/2.81811a18.chunk.js.map": "/myapp/static/js/2.81811a18.chunk.js.map",
     "index.html": "/myapp/index.html",
-    "precache-manifest.814e3bdcb8f96543a184a4fd79251438.js": "/myapp/precache-manifest.814e3bdcb8f96543a184a4fd79251438.js",
+    "precache-manifest.bbf68a63918117cf22cb77a3a65cbd47.js": "/myapp/precache-manifest.bbf68a63918117cf22cb77a3a65cbd47.js",
     "service-worker.js": "/myapp/service-worker.js",
-    "static/css/main.af696a07.chunk.css.map": "/myapp/static/css/main.af696a07.chunk.css.map",
-    "static/js/2.c688961e.chunk.js.LICENSE": "/myapp/static/js/2.c688961e.chunk.js.LICENSE",
+    "static/css/main.320a6654.chunk.css.map": "/myapp/static/css/main.320a6654.chunk.css.map",
+    "static/js/2.81811a18.chunk.js.LICENSE": "/myapp/static/js/2.81811a18.chunk.js.LICENSE",
     "static/media/AboutMe.module.css": "/myapp/static/media/preloader.2e43c009.gif",
     "static/media/ItemList.module.css": "/myapp/static/media/error.c3b27579.png"
   },
   "entrypoints": [
     "static/js/runtime-main.5f507148.js",
-    "static/js/2.c688961e.chunk.js",
-    "static/css/main.af696a07.chunk.css",
-    "static/js/main.14b98856.chunk.js"
+    "static/js/2.81811a18.chunk.js",
+    "static/css/main.320a6654.chunk.css",
+    "static/js/main.f1facabb.chunk.js"
   ]
 }
