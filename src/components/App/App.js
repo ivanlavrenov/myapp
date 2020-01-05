@@ -12,7 +12,7 @@ const App = () => (
           <NavLink
             to='/'
             exact
-            className={styles.header__link}
+            className={styles.header_link}
             activeClassName={styles['header_about']}
           >
             Обо мне
