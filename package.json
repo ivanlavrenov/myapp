@@ -71,28 +71,28 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js"
-    },
-    "eslintConfig": {
-      "extends": "react-app"
-    },
-    "browserslist": {
-      "production": [
-        ">0.2%",
-        "not dead",
-        "not op_mini all"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
     ],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
     ]
-    },
-    "devDependencies": {
-      "gh-pages": "^2.1.1"
-    },
-    "jest": {
-      "roots": [
-        "<rootDir>/src"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
+  },
+  "jest": {
+    "roots": [
+      "<rootDir>/src"
     ],
     "collectCoverageFrom": [
       "src/**/*.{js,jsx,ts,tsx}",
@@ -137,10 +137,10 @@
       "jest-watch-typeahead/filename",
       "jest-watch-typeahead/testname"
     ]
-    },
-    "babel": {
-      "presets": [
-        "react-app"
-      ]
-    }
+  },
+  "babel": {
+    "presets": [
+      "react-app"
+    ]
   }
+}
